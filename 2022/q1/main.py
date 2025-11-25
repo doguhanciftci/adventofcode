@@ -1,7 +1,7 @@
 import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))
 from tools.reader import read
-
-sys.path.insert(0, '../../tools')
 
 data = read('input.txt')
 
